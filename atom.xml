@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>是恩不是嗯</title>
+  
+  <subtitle>On my way</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-09-07T02:47:26.606Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>faris_li</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/09/07/hello-world/"/>
+    <id>http://example.com/2021/09/07/hello-world/</id>
+    <published>2021-09-07T02:47:26.605Z</published>
+    <updated>2021-09-07T02:47:26.606Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数字类型：避免自增踩坑</title>
+    <link href="http://example.com/2021/09/07/%E6%95%B0%E5%AD%97%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://example.com/2021/09/07/%E6%95%B0%E5%AD%97%E7%B1%BB%E5%9E%8B/</id>
+    <published>2021-09-07T01:25:00.000Z</published>
+    <updated>2021-09-08T07:05:24.267Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;####1 在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;怎么设计一个互联网海量并发业务的自增主键？用 INT 就够了？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;怎么设计账户的余额？用</summary>
+        
+      
+    
+    
+    
+    <category term="mysql" scheme="http://example.com/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="http://example.com/tags/mysql/"/>
+    
+    <category term="主键" scheme="http://example.com/tags/%E4%B8%BB%E9%94%AE/"/>
+    
+  </entry>
+  
+</feed>
