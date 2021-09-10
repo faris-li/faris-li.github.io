@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-10T09:31:12.433Z</updated>
+  <updated>2021-09-10T09:37:56.077Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="http://example.com/2021/09/10/%E7%BC%96%E5%86%99%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAGo%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F/"/>
     <id>http://example.com/2021/09/10/%E7%BC%96%E5%86%99%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAGo%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F/</id>
     <published>2021-09-10T09:25:00.000Z</published>
-    <updated>2021-09-10T09:31:12.433Z</updated>
+    <updated>2021-09-10T09:37:56.077Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;###1.Go 语言环境搭建&lt;/p&gt;
-&lt;p&gt;要想搭建 Go 语言开发环境，需要先下载 Go 语言开发包。你可以从官网 &lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt;/a&gt; 和 &lt;a</summary>
+    <summary type="html">&lt;h3 id=&quot;1-Go语言环境搭建&quot;&gt;&lt;a href=&quot;#1-Go语言环境搭建&quot; class=&quot;headerlink&quot; title=&quot;1.Go语言环境搭建&quot;&gt;&lt;/a&gt;1.Go语言环境搭建&lt;/h3&gt;&lt;p&gt;要想搭建 Go 语言开发环境，需要先下载 Go 语言开发包。你可以从官网</summary>
         
       
     
@@ -60,33 +59,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>数字类型：避免自增踩坑</title>
-    <link href="http://example.com/2021/09/07/%E6%95%B0%E5%AD%97%E7%B1%BB%E5%9E%8B/"/>
-    <id>http://example.com/2021/09/07/%E6%95%B0%E5%AD%97%E7%B1%BB%E5%9E%8B/</id>
-    <published>2021-09-07T01:25:00.000Z</published>
-    <updated>2021-09-08T07:06:18.191Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;1-在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如：&quot;&gt;&lt;a href=&quot;#1-在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="mysql" scheme="http://example.com/categories/mysql/"/>
-    
-    
-    <category term="mysql" scheme="http://example.com/tags/mysql/"/>
-    
-    <category term="主键" scheme="http://example.com/tags/%E4%B8%BB%E9%94%AE/"/>
     
   </entry>
   

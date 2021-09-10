@@ -419,8 +419,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>###1.Go 语言环境搭建</p>
-<p>要想搭建 Go 语言开发环境，需要先下载 Go 语言开发包。你可以从官网 <a target="_blank" rel="noopener" href="https://golang.org/dl/">https://golang.org/dl/</a> 和 <a target="_blank" rel="noopener" href="https://golang.google.cn/dl/">https://golang.google.cn/dl/</a> 下载（第一个链接是国外的官网，第二个是国内的官网，如果第一个访问不了，可以从第二个下载）。</p>
+                <h3 id="1-Go语言环境搭建"><a href="#1-Go语言环境搭建" class="headerlink" title="1.Go语言环境搭建"></a>1.Go语言环境搭建</h3><p>要想搭建 Go 语言开发环境，需要先下载 Go 语言开发包。你可以从官网 <a target="_blank" rel="noopener" href="https://golang.org/dl/">https://golang.org/dl/</a> 和 <a target="_blank" rel="noopener" href="https://golang.google.cn/dl/">https://golang.google.cn/dl/</a> 下载（第一个链接是国外的官网，第二个是国内的官网，如果第一个访问不了，可以从第二个下载）。</p>
 <p>下载时可以根据自己的操作系统选择相应的开发包，比如 Window、MacOS 或是 Linux 等，如下图所示：</p>
 <p>![image-20210910171421736](/Users/lihuaien/Library/Application Support/typora-user-images/image-20210910171421736.png)</p>
 <ul>
@@ -464,8 +463,7 @@ go version go1.15 darwin/amd64
 export GOBIN=$GOPATH/bin
 </code></pre>
 <p>在 Windows 操作系统中，则通过控制面板 -&gt; 高级 -&gt; 环境变量选项添加这两个环境变量即可。</p>
-<p>###2.Hello, 世界</p>
-<p> ch01/main.go</p>
+<h3 id="2-Hello-世界"><a href="#2-Hello-世界" class="headerlink" title="2.Hello, 世界"></a>2.Hello, 世界</h3><p> ch01/main.go</p>
 <pre><code>package main
 import "fmt"
 func main() {
@@ -479,8 +477,7 @@ Hello, 世界
 <p>其中 go run ch01/main.go 是我输入的命令，回车后看到的“Hello, 世界”是 Go 程序输出的结果。</p>
 <p>代码中的 go 是一个 Go 语言开发工具包提供的命令，它和你平时常用的 ls 命令一样都是可执行的命令。它可以帮助你运行 Go 语言代码，并进行编译，生成可执行的二进制文件等。</p>
 <p>run 在这里是 go 命令的子命令，表示要运行 Go 语言代码的意思。最后的 ch01/main.go 就是我写的 Go 语言代码文件了。也就是说，整个 go run ch01/main.go 表示要运行 ch01/main.go 里的 Go 语言代码。</p>
-<p>###3.程序结构分析</p>
-<p>要让一个 Go 语言程序成功运行起来，只需要 package main 和 main 函数这两个核心部分， package main 代表的是一个可运行的应用程序，而 main 函数则是这个应用程序的主入口。</p>
+<h3 id="3-程序结构分析"><a href="#3-程序结构分析" class="headerlink" title="3.程序结构分析"></a>3.程序结构分析</h3><p>要让一个 Go 语言程序成功运行起来，只需要 package main 和 main 函数这两个核心部分， package main 代表的是一个可运行的应用程序，而 main 函数则是这个应用程序的主入口。</p>
 <p>在“Hello, 世界”这个简单的示例中，包含了一个 Go 语言程序运行的最基本的核心结构。我们以此为例，来逐一介绍程序的结构，了解 Go 语言的核心概念。</p>
 <ul>
 <li>第一行的 package main 代表当前的 ch01/main.go 文件属于哪个包，其中 package 是 Go 语言声明包的关键字，main 是要声明的包名。在 Go 语言中 main 包是一个特殊的包，代表你的 Go 语言项目是一个可运行的应用程序，而不是一个被其他项目引用的库。</li>
@@ -490,8 +487,7 @@ Hello, 世界
 <li>第五行的大括号 } 表示 main 函数体的结束。现在整个代码片段已经分析完了，运行就可以看到“Hello, 世界”结果的输出。</li>
 </ul>
 <p>从以上分析来看，Go 语言的代码是非常简洁、完整的核心程序，只需要 package、import、func main 这些核心概念就可以实现。 在后面的课时中，我还会讲如何使用变量，如何自定义函数等，这里先略过不讲，我们先来看看 Go 语言的开发环境是如何搭建的，这样才能运行上面的 Go 语言代码，让整个程序跑起来。</p>
-<p>###4.项目结构</p>
-<p>采用 Go Module 的方式，可以在任何位置创建你的 Go 语言项目。在整个专栏中，我都会使用这种方式演示 Go 语言示例，现在你先对 Go Module 项目结构有一个大概了解，后面的课时我会详细地介绍 Go Module。</p>
+<h3 id="4-项目结构"><a href="#4-项目结构" class="headerlink" title="4.项目结构"></a>4.项目结构</h3><p>采用 Go Module 的方式，可以在任何位置创建你的 Go 语言项目。在整个专栏中，我都会使用这种方式演示 Go 语言示例，现在你先对 Go Module 项目结构有一个大概了解，后面的课时我会详细地介绍 Go Module。</p>
 <p>假设你的项目位置是 /Users/flysnow/git/gotour，打开终端，输入如下命令切换到该目录下：</p>
 <pre><code>$ cd /Users/flysnow/git/gotour
 </code></pre>
@@ -505,8 +501,7 @@ Hello, 世界
 └── main.go
 </code></pre>
 <p>其中 main.go 是整个项目的入口文件，里面有 main 函数。lib 目录是项目的子模块，根据项目需求可以新建很多个目录作为子模块，也可以继续嵌套为子模块的子模块。</p>
-<p>###5.编译发布</p>
-<p>完成了你的项目后，可以编译生成可执行文件，也可以把它发布到 $GOBIN 目录，以供在终端使用。以“Hello 世界”为例，在项目根目录输入以下命令，即可编译一个可执行文件。</p>
+<h3 id="5-编译发布"><a href="#5-编译发布" class="headerlink" title="5.编译发布"></a>5.编译发布</h3><p>完成了你的项目后，可以编译生成可执行文件，也可以把它发布到 $GOBIN 目录，以供在终端使用。以“Hello 世界”为例，在项目根目录输入以下命令，即可编译一个可执行文件。</p>
 <pre><code>$ go build ./ch01/main.go
 </code></pre>
 <p>回车执行后会在当前目录生成 main 可执行文件，现在，我们来测试下它是否可用。</p>
@@ -518,8 +513,7 @@ Hello, 世界
 <pre><code>$ go install ./ch01/main.go
 </code></pre>
 <p>使用 go install 命令即可，现在你在任意时刻打开终端，输入 main 回车，都会打印出“Hello, 世界”，是不是很方便！</p>
-<p>###6.跨平台编译</p>
-<p>Go 语言开发工具包的另一强大功能就是可以跨平台编译。什么是跨平台编译呢？就是你在 macOS 开发，可以编译 Linux、Window 等平台上的可执行程序，这样你开发的程序，就可以在这些平台上运行。也就是说，你可以选择喜欢的操作系统做开发，并跨平台编译成需要发布平台的可执行程序即可。</p>
+<h3 id="6-跨平台编译"><a href="#6-跨平台编译" class="headerlink" title="6.跨平台编译"></a>6.跨平台编译</h3><p>Go 语言开发工具包的另一强大功能就是可以跨平台编译。什么是跨平台编译呢？就是你在 macOS 开发，可以编译 Linux、Window 等平台上的可执行程序，这样你开发的程序，就可以在这些平台上运行。也就是说，你可以选择喜欢的操作系统做开发，并跨平台编译成需要发布平台的可执行程序即可。</p>
 <p>Go 语言通过两个环境变量来控制跨平台编译，它们分别是 GOOS 和 GOARCH 。</p>
 <ul>
 <li><p>GOOS：代表要编译的目标操作系统，常见的有 Linux、Windows、Darwin 等。</p>
@@ -531,8 +525,7 @@ Hello, 世界
 <pre><code>$ GOOS=linux GOARCH=amd64 go build ./ch01/main.go
 </code></pre>
 <p>关于 GOOS 和 GOARCH 更多的组合，参考官方文档的 $GOOS and $GOARCH 这一节即可。</p>
-<p>###7.Go编辑器推荐</p>
-<p>好的编辑器可以提高开发的效率，这里我推荐两款目前最流行的编辑器。</p>
+<h3 id="7-Go编辑器推荐"><a href="#7-Go编辑器推荐" class="headerlink" title="7.Go编辑器推荐"></a>7.Go编辑器推荐</h3><p>好的编辑器可以提高开发的效率，这里我推荐两款目前最流行的编辑器。</p>
 <p>第一款是 Visual Studio Code + Go 扩展插件，可以让你非常高效地开发，通过官方网站 <a target="_blank" rel="noopener" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> 下载使用。</p>
 <p>第二款是老牌 IDE 公司 JetBrains 推出的 Goland，所有插件已经全部集成，更容易上手，并且功能强大，新手老手都适合，你可以通过官方网站 <a target="_blank" rel="noopener" href="https://www.jetbrains.com/go/">https://www.jetbrains.com/go/</a> 下载使用。</p>
 
@@ -1031,7 +1024,7 @@ Hello, 世界
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">5.9k</span>
+                        class="white-color">2.9k</span>
             
             
             
