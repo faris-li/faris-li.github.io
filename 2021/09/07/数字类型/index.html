@@ -423,8 +423,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>####1 在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如：</p>
-<ul>
+                <h4 id="1-在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如："><a href="#1-在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如：" class="headerlink" title="1 在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如："></a>1 在进行表结构设计时，数字类型是最为常见的类型之一，但要用好数字类型并不如想象得那么简单，比如：</h4><ul>
 <li><p>怎么设计一个互联网海量并发业务的自增主键？用 INT 就够了？</p>
 </li>
 <li><p>怎么设计账户的余额？用 DECIMAL 类型就万无一失了吗？</p>
@@ -806,6 +805,33 @@ Create Table: CREATE TABLE `t` (
             
         </div>
     </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '713e9a26e765f2f44728',
+        clientSecret: '84c864e26003e26ccef89c0ae6e73b9926684fd0',
+        repo: 'blog-comments',
+        owner: 'faris-li',
+        admin: "faris-li",
+        id: '2021-09-07T09-25-00',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
 
     
 
