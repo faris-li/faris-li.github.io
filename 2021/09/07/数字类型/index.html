@@ -1013,9 +1013,7 @@ Create Table: CREATE TABLE `t` (
 
 
 
-
-
-    <div id="gitalk-container"></div>
+{% if theme.gitalk.enable %}
     <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
 <link rel="stylesheet" href="/css/my-gitalk.css">
 
@@ -1043,6 +1041,7 @@ Create Table: CREATE TABLE `t` (
     gitalk.render('gitalk-container');
 </script>
 
+{% endif %}
 
 
     <footer class="page-footer bg-color">
