@@ -826,7 +826,7 @@ Create Table: CREATE TABLE `t` (
         repo: 'blog-comments',
         owner: 'faris-li',
         admin: "faris-li",
-        id: '{{ page.url }}',
+        id: md5(location.pathname),
         // id: '2021-09-07T09-25-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
@@ -1035,7 +1035,7 @@ Create Table: CREATE TABLE `t` (
         repo: 'blog-comments',
         owner: 'faris-li',
         admin: "faris-li",
-        id: '{{ page.url }}',
+        id: md5(location.pathname),
         // id: '2021-09-07T09-25-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });

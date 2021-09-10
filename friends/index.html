@@ -660,7 +660,7 @@
         repo: 'blog-comments',
         owner: 'faris-li',
         admin: "faris-li",
-        id: '{{ page.url }}',
+        id: md5(location.pathname),
         // id: '2021-09-07T14-30-51',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
